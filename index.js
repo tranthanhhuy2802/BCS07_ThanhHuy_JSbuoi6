@@ -13,6 +13,8 @@ function soNguyenDuongNhoNhat() {
 // Đề 2
 function tinhTong() {
   var x = document.getElementById("soX").value * 1;
+  var n = document.getElementById("soN").value * 1;
+
   var kq = 0;
   for (var i = 1; i <= n; i++) {
     kq += x * i;
