@@ -49,7 +49,7 @@ function in10Div() {
 // ĐỀ 5 in ra số nguyên tố
 function inRaSoNguyenTo() {
   var kq = "";
-  var n = document.getElementById("soN").value * 1;
+  var n = document.getElementById("soN5").value * 1;
   for (var j = 2; j <= n; j++) {
     var sNT = ktSNT(j);
     if (sNT) {
